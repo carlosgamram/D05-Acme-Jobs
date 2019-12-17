@@ -40,11 +40,6 @@
 		
 	<acme:form-submit test="${command != 'create'}"
 		method="get" 
-		code="authenticated.messagethread.form.button.authenticated.list" 
-		action="/authenticated/authenticated/list?id=${id}"/>
-		
-	<acme:form-submit test="${command != 'create'}"
-		method="get" 
 		code="authenticated.messagethread.form.button.message" 
 		action="/authenticated/message/list?id=${id}"/>
 
@@ -52,7 +47,6 @@
 		method="get" 
 		code="authenticated.messagethread.form.button.create" 
 		action="/authenticated/message/create?id=${id}"/>
-
 
   <acme:form-return code="authenticated.messagethread.form.button.return"/>
   	

@@ -20,4 +20,11 @@
 	<acme:list-column code="authenticated.participant.list.label.user" path="user.identity.fullName" width="100%"/>	
 </acme:list>
 
+<acme:form>
+	<acme:form-submit 
+		method="get" 
+		code="authenticated.participant.form.button.create" 
+		action="/authenticated/participant/create"/>
+</acme:form>
+
 

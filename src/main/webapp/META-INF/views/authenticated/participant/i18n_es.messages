@@ -10,6 +10,7 @@
 
 authenticated.participant.list.label.user = Usuario
 
+authenticated.participant.form.button.create = Añadir participante
 authenticated.participant.form.button.delete = Borrar
-authenticated.participant.form.label.user = Usuario
+authenticated.participant.form.label.messagethread = Título del hilo
 authenticated.participant.form.button.return = Volver
